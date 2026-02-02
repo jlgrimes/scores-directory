@@ -21,7 +21,20 @@ const yoga = createYoga({
 
 const server = Bun.serve({
   port: process.env.PORT || 3000,
-  fetch: yoga.fetch,
+  fetch: (req) => {
+    const url = new URL(req.url);
+
+    // Root path - redirect to GraphQL playground
+    if (url.pathname === "/") {
+      return new Response(null, {
+        status: 302,
+        headers: { Location: "/graphql" },
+      });
+    }
+
+    // Everything else goes to GraphQL Yoga
+    return yoga.fetch(req);
+  },
 });
 
 console.log(`GraphQL server running at http://localhost:${server.port}/graphql`);
