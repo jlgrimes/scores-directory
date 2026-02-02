@@ -1,0 +1,14 @@
+@part:trumpet   (^^C ^E)-(^^C ^E)/ $/ $p
+@part:trombone  Bb* [Bb Bb Bb Bb]/// Bb* [Bb Bb Bb Bb]///
+
+\\ $/ ^[C C C C]/// [^C G ^F]3/ [^G ^F ^C]3/ [^C G ^F]3/
+\\ [Bb F ^Eb]3/ [^F Eb Bb]3/ [Bb F ^Eb]3/ [^F Eb Bb]3/
+
+\\ [^G ^F ^C]3/ [^C G ^F]3/ [^G ^C ^C]3/ [G G G]3/
+\\ [^Eb Bb ^F]3/ ^Ab-^Ab/ $/ [F F F]3/
+---
+title: Star Wars
+time-signature: 4/4
+tempo: 108
+written-notation: transposed
+---

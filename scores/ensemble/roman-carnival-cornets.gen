@@ -1,0 +1,30 @@
+@part:trumpet ^D% ^E%/ ^D% ^E%/
+@part:trumpet A B%/ A B%/
+@part:trumpet F# G/ F# G/
+
+\\ ^D% ^E%/ ^D% ^E%/
+\\ A B%/ A B%/
+\\ F# G/ F# G/
+
+\\ ^D* A*
+\\ A* A G/
+\\ [F# E% D]/ C#*
+
+\\ B% ^C#/ B% ^C#/ 
+\\ F# G/ F# G/ 
+\\ D E%/ D E%/ 
+
+\\ ^Cb*-[^Cb B ^Cb]/
+\\ Ab* $*
+\\ F* $*
+
+\\ Bp*
+\\ $p*
+\\ $p*
+
+---
+title: Roman Carnival
+time-signature: 6/8
+key-signature: Bb
+tempo: 100*
+---
